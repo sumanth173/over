@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sec1{
+            border:2px solid black;
+            width:300px;
+            background-color:beige;
+
+        }
+        #c1{
+            display: none;
+        }
+        div:hover+#c1{
+            display: inline-block;
+            width:250px;
+            background-color: brown;
+            color: aliceblue;
+            padding: 5px;
+        }
+        .sec2{
+            border:2px solid black;
+            width:300px;
+            background-color:beige;
+            /* margin-left: 350px;
+            margin-top: -400px; */
+            position: absolute;
+            top:9px;
+            left:400px;
+        }
+        #c2{
+            display: none;
+
+        }
+        div:hover+#c2{
+            display: inline-block;
+            width:250px;
+            background-color: brown;
+            color: aliceblue;
+            padding: 5px;
+            margin-left: 390px;
+            
+        }
+        img{
+            height:130px;
+            width:150px
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEhrGgze2I5sAc835xPXXuWUAzVHKX2u-1yA&s" alt="">
+        <h1>Rohit sharma</h1>
+        <h3>View more...</h3>
+    </div>
+        <p id="c1">Rohit Sharma (born 30 April 1987) is an Indian international cricketer who currently plays for and captains the India national cricket team in Test and One Day International (ODI) matches.</p>
+        <div>
+
+        
+        <div class="sec2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBB624JTWfrwI-UjqIRzvzqZX-y5CJDvWgIA&s" alt="">
+            <h1>Rithika Shajed</h1>
+            <h3>View more...</h3>
+        </div>
+            <p id="c2"> Rithika Sajdeh is currently 36 years old. She was born on December 21, 1987, in Mumbai, Maharashtra.Ritika Sajdeh is a sports manager who looks after the players’ brand endorsements and contracts among many other things. Since her marriage to India’s limited-overs vice-captain Rohit Sharma, she manages only Rohit.</p>
+        </div>
+</body>
+</html>
